@@ -5,7 +5,7 @@ public class Task5 {
         return x >= 10 && x <= 99;
     }
 
-    public static void main(String[] args) {
+    public static void run() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите положительное число: ");
         int x = scanner.nextInt();

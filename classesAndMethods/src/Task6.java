@@ -5,7 +5,7 @@ public class Task6 {
         return x >= 'A' && x <= 'Z';
     }
 
-    public static void main(String[] args) {
+    public static void run() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите символ от 'a'/'A' до 'z'/'Z': ");
         String input = scanner.nextLine();

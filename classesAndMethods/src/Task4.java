@@ -5,7 +5,7 @@ public class Task4 {
         return x > 0;
     }
 
-    public static void main(String[] args) {
+    public static void run() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите целое число: ");
         int x = scanner.nextInt();

@@ -7,7 +7,7 @@ public class Task2 {
         return lastDigit + secondLastDigit;
     }
 
-    public static void main(String[] args) {
+    public static void run() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите целое число (не менее двух знаков): ");
         int x = scanner.nextInt();

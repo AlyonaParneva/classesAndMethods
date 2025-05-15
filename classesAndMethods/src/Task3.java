@@ -5,7 +5,7 @@ public class Task3 {
         return x - 48;
     }
 
-    public static void main(String[] args) {
+    public static void run() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите цифру от 0 до 9 (в виде символа): ");
         String input = scanner.nextLine();

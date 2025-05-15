@@ -7,5 +7,6 @@ public class Main {
         Task5.run();
         Task6.run();
         Task7.run();
+        Task8.run();
     }
 }
